@@ -3,16 +3,16 @@ package com.gradle.test;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class HelloWorldTest {
+public class FirstTest {
     @Test
-    public void testGetMessage() {
+    public void testFirst1() {
         HelloWorld helloWorld = new HelloWorld();
         assertEquals(helloWorld.getMessage(), "Hello World!");
     }
     
     @Test
-    public void testExit() {
-        System.exit(1);
-        fail("This should NEVER be printed!");        
+    public void testFirst2() {
+        HelloWorld helloWorld = new HelloWorld();
+        assertEquals(helloWorld.getMessage(), "Hello World!");
     }
 }
